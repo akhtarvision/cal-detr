@@ -1,6 +1,6 @@
 # [NeurIPS 2023] Cal-DETR: Calibrated Detection Transformer
 
-[Paper (arXiv)]()  |   [Poster](TBA)  |   [Video](TBA)
+[Paper (arXiv)](TBA)  |   [Poster](TBA)  |   [Video](TBA)
 
 Authors: [Muhammad Akhtar Munir](https://scholar.google.com.pk/citations?user=sT-epZAAAAAJ&hl=en), [Salman Khan](https://salman-h-khan.github.io/), [Muhammad Haris Khan](https://scholar.google.com.pk/citations?user=ZgERfFwAAAAJ&hl=en), [Mohsen Ali](https://scholar.google.com.pk/citations?user=59ISSCEAAAAJ&hl=en), [Fahad Shahbaz Khan](https://scholar.google.es/citations?user=zvaeYnUAAAAJ&hl=en)
 
@@ -29,8 +29,8 @@ Results report Detection Expected Calibration Error (D-ECE) for In-Domain (MS-CO
 | [Temp. Scaling](https://arxiv.org/abs/1706.04599)            |   14.2   |   44.0    |   12.3   |   23.9   |  -   |
 | [MDCA](https://arxiv.org/abs/2203.13834)                     |   12.2   |   44.0    |   11.1   |   23.5   |   [link](https://drive.google.com/file/d/1CsXpzU55fMKrQzQ6EUmkZAGmzgo60eTE/view?usp=share_link)  |
 | [MbLS](https://arxiv.org/abs/2111.15430)                     |   15.7   |   44.4    |   12.4   |   23.5    |  [link](https://drive.google.com/file/d/1U_-5QK036hCskMXeUMkSTc98iTg1fkR8/view?usp=share_link)    |
-| [TCD](https://proceedings.neurips.cc/paper_files/paper/2022/file/fcd812a51b8f8d05cfea22e3c9c4b369-Paper-Conference.pdf)                                          |   11.8   |   44.1    |   10.4    |   23.8    |   [link](TBA)   |
-| [Cal-DETR](TBA)                                          |   8.4   |   44.4    |   8.9    |   24.0    |   [link](TBA)   |
+| [TCD](https://proceedings.neurips.cc/paper_files/paper/2022/file/fcd812a51b8f8d05cfea22e3c9c4b369-Paper-Conference.pdf)                                          |   11.8   |   44.1    |   10.4    |   23.8    |   [link](https://drive.google.com/file/d/1ptuJwrvRFJYPjsgFM6ud9nuEZ-FfcpMr/view?usp=sharing)   |
+| [Cal-DETR](TBA)                                          |   8.4   |   44.4    |   8.9    |   24.0    |   [link](https://drive.google.com/file/d/1AlOBoHbvbbvI_-A_Zrz9eyD1JMQRg-Kn/view?usp=sharing)   |
 
 
 ## Setup
