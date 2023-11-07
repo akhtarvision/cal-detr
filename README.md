@@ -10,17 +10,21 @@ This paper is accepted at NeurIPS 2023 and this repository contains the PyTorch 
 Albeit revealing impressive predictive performance for several computer vision tasks, deep neural networks (DNNs) are prone to making overconfident predictions. This limits the adoption and wider utilization of DNNs in many safety-critical applications. 
 There have been recent efforts toward calibrating DNNs, however, almost all of them focus on the classification task. Surprisingly, very little attention has been devoted to calibrating modern DNN-based object detectors, especially detection transformers, which have recently demonstrated promising detection performance and are influential in many decision-making systems. In this work, we address the problem by proposing a mechanism for calibrated detection transformers (Cal-DETR), particularly for Deformable-DETR, UP-DETR, and DINO. We pursue the train-time calibration route and make the following contributions. First, we propose a simple yet effective approach for quantifying uncertainty in transformer-based object detectors. Second, we develop an uncertainty-guided logit modulation mechanism that leverages the uncertainty to modulate the class logits. Third, we develop a logit mixing approach that acts as a regularizer with detection-specific losses and is also complementary to the uncertainty-guided logit modulation technique to further improve the calibration performance. Finally, we perform extensive experiments on three in-domain and four out-domain scenarios. Results corroborate the effectiveness of Cal-DETR against the competing train-time methods in calibrating both in-domain and out-domain detections while maintaining or even improving the detection performance.
 
+##
+
 ![alt text](main.png)
 
 ## Results
 
 ![alt text](bar.png)
 
+##
+
 Reliability Diagrams: Selected classes from MS-COCO.
 
 ![alt text](RD.png)
 
-### Cal-DETR comparison with baseline, post-hoc, and other train-time calibration losses
+## Cal-DETR comparison with baseline, post-hoc, and other train-time calibration losses
 Results report Detection Expected Calibration Error (D-ECE) for In-Domain (MS-COCO) and Out-Domain (CorCOCO).
 
 | Methods                                                      | D-ECE (MS-COCO) | APbox (MS-COCO) |    D-ECE (CorCOCO)    | APbox (CorCOCO) | model | 
@@ -45,7 +49,11 @@ PyTorch>=1.7.0
 
 ## Installation
 
-For complete Installation and usage instructions, follow the guidelines [here](https://github.com/fundamentalvision/Deformable-DETR#installation)
+Deformable-DETR: For complete Installation and usage instructions, follow the guidelines [here](https://github.com/fundamentalvision/Deformable-DETR#installation)
+
+DINO: Follow the guidelines [here](https://github.com/IDEA-Research/DINO#installation)
+
+UP-DETR: Follow the guidelines [here](https://github.com/dddzg/up-detr)
 
 ## For more setup details (Training and Evaluation etc.) we refer [here](https://github.com/akhtarvision/bpc_calibration)
 
