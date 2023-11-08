@@ -1,6 +1,6 @@
 # [NeurIPS 2023] Cal-DETR: Calibrated Detection Transformer
 
-[Paper (arXiv)](TBA)  |   [Poster](TBA)  |   [Video](TBA)
+[Paper (arXiv)](https://arxiv.org/abs/2311.03570)  |   [Poster (TBA)](TBA)  |   [Video (TBA)](TBA)
 
 Authors: [Muhammad Akhtar Munir](https://scholar.google.com.pk/citations?user=sT-epZAAAAAJ&hl=en), [Salman Khan](https://salman-h-khan.github.io/), [Muhammad Haris Khan](https://scholar.google.com.pk/citations?user=ZgERfFwAAAAJ&hl=en), [Mohsen Ali](https://scholar.google.com.pk/citations?user=59ISSCEAAAAJ&hl=en), [Fahad Shahbaz Khan](https://scholar.google.es/citations?user=zvaeYnUAAAAJ&hl=en)
 
