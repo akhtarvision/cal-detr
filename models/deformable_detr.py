@@ -509,7 +509,7 @@ def build(args):
     matcher = build_matcher(args)
     weight_dict = {'loss_ce': args.cls_loss_coef, 'loss_bbox': args.bbox_loss_coef}
     weight_dict['loss_giou'] = args.giou_loss_coef
-    weight_dict['loss_ceReg'] = 1.0
+    weight_dict['loss_ceReg'] = 0.5 #1.0
     
     if args.masks:
         weight_dict["loss_mask"] = args.mask_loss_coef
